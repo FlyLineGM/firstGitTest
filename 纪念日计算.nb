@@ -1,0 +1,213 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7399,        205]
+NotebookOptionsPosition[      6084,        172]
+NotebookOutlinePosition[      6440,        188]
+CellTagsIndexPosition[      6397,        185]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Interpreter", "[", "\"\<Date\>\"", "]"}], "[", "\"\<20160702\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.737968927255772*^9, 
+  3.737968975843902*^9}},ExpressionUUID->"a5a880be-0d0c-463c-9aa8-\
+ae98aaee22ce"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{
+     StyleBox["\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+     "\"Sat 2 Jul 2016\""}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{"2016", ",", "7", ",", "2"}], "}"}], ",", "\"Day\"", ",", 
+       "\"Gregorian\"", ",", "8.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{{3.7379689595213046`*^9, 3.737968988973531*^9}, {
+   3.739848878032703*^9, 3.7398488810301857`*^9}, 
+   3.749343128276824*^9},ExpressionUUID->"b1955ff2-3c74-499c-ade0-\
+af37eaa93792"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Today", "-", 
+  TemplateBox[{RowBox[{
+      StyleBox["\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain],
+       "\"Sat 2 Jul 2016\""}],RowBox[{"DateObject", "[", 
+      RowBox[{
+        RowBox[{"{", 
+          RowBox[{"2016", ",", "7", ",", "2"}], "}"}], ",", "\"Day\"", ",", 
+        "\"Gregorian\"", ",", "8.`"}], "]"}]},
+   "DateObject",
+   Editable->False]}]], "Input",
+ CellChangeTimes->{{3.7379689922644835`*^9, 3.737969000942547*^9}, {
+  3.7398488809036665`*^9, 
+  3.739848884150256*^9}},ExpressionUUID->"3c50171c-a5d8-44ea-874f-\
+124eaaeee38c"],
+
+Cell[BoxData[
+ TemplateBox[{"910","\"days\"","days","\"Days\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.740736165811221*^9, 3.740736166071002*^9}, {
+   3.745894058027361*^9, 3.745894060735248*^9}, 3.745894197252346*^9, 
+   3.7463061823402624`*^9, {3.746306238853943*^9, 3.746306246659142*^9}, 
+   3.746308663455899*^9, {3.746432486005822*^9, 3.7464324914146423`*^9}, {
+   3.748236125667142*^9, 3.7482361329618125`*^9}, 3.7486860713218374`*^9, 
+   3.7490740002666483`*^9, {3.749343099662295*^9, 3.7493431288609266`*^9}, {
+   3.7496131841991014`*^9, 3.7496131859234905`*^9}, 3.7505016855941353`*^9, 
+   3.7505017854611406`*^9, 3.750502823358175*^9, 3.7509800012271166`*^9, 
+   3.7516115097849407`*^9, 3.7516115681094584`*^9, 3.7519610286193485`*^9, 
+   3.7536552414289656`*^9, 3.7541985283947134`*^9, 3.754270247640393*^9, 
+   3.7550818677869415`*^9},ExpressionUUID->"a4d0ae5e-8e7e-454b-a741-\
+f0235fb2be28"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DatePlus", "[", 
+  RowBox[{
+   TemplateBox[{RowBox[{
+       StyleBox[
+       "\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+       "\"Sat 2 Jul 2016\""}],RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2016", ",", "7", ",", "2"}], "}"}], ",", "\"Day\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", "999"}], "]"}]], "Input",
+ CellChangeTimes->{{3.737969024793165*^9, 3.737969041685485*^9}, {
+  3.741300436539422*^9, 3.741300445469857*^9}, {3.7458940746114445`*^9, 
+  3.7458940747983365`*^9}, {3.745894202375939*^9, 3.745894227140499*^9}, {
+  3.750980012679886*^9, 
+  3.750980023407697*^9}},ExpressionUUID->"a676aa3c-9414-4370-bb45-\
+716992a4a010"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{
+     StyleBox["\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+     "\"Thu 28 Mar 2019\""}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{"2019", ",", "3", ",", "28"}], "}"}], ",", "\"Day\"", ",", 
+       "\"Gregorian\"", ",", "8.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{
+  3.7379690424304314`*^9, {3.741300438623757*^9, 3.74130044621209*^9}, 
+   3.745894075731722*^9, {3.745894203648269*^9, 3.7458942278436584`*^9}, 
+   3.750501790307252*^9, {3.7509800148909287`*^9, 
+   3.7509800238759203`*^9}},ExpressionUUID->"fa247950-bc75-4b36-87dc-\
+41b13af21c54"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Interpreter", "[", "\"\<Date\>\"", "]"}], "[", "\"\<20190116\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7542701202556334`*^9, 
+  3.754270127594325*^9}},ExpressionUUID->"82ef4b9a-d4e6-4f2c-852e-\
+a682e48e06cb"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{
+     StyleBox["\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+     "\"Wed 16 Jan 2019\""}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{"2019", ",", "1", ",", "16"}], "}"}], ",", "\"Day\"", ",", 
+       "\"Gregorian\"", ",", "8.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{
+  3.754270134060737*^9},ExpressionUUID->"d8e7d8a0-2cbc-469b-9edf-\
+cfd7433c7e14"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  TemplateBox[{RowBox[{
+      StyleBox["\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain],
+       "\"Wed 16 Jan 2019\""}],RowBox[{"DateObject", "[", 
+      RowBox[{
+        RowBox[{"{", 
+          RowBox[{"2019", ",", "1", ",", "16"}], "}"}], ",", "\"Day\"", ",", 
+        "\"Gregorian\"", ",", "8.`"}], "]"}]},
+   "DateObject",
+   Editable->False], "-", "Today"}]], "Input",
+ CellChangeTimes->{{3.7542701449646845`*^9, 3.7542701617575765`*^9}, {
+  3.754270205288762*^9, 
+  3.754270211462743*^9}},ExpressionUUID->"5f2f42a6-e677-4f23-ae39-\
+0e5cacc4e35b"],
+
+Cell[BoxData[
+ TemplateBox[{"27","\"days\"","days","\"Days\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.7542701631146812`*^9, 
+  3.7542702120641155`*^9},ExpressionUUID->"450dde67-ed78-4aa2-920f-\
+5e11c26f3368"]
+}, Open  ]]
+},
+WindowSize->{1264, 646},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (2017\:5e749\:670810\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 247, 6, 45, "Input",ExpressionUUID->"a5a880be-0d0c-463c-9aa8-ae98aaee22ce"],
+Cell[830, 30, 578, 13, 45, "Output",ExpressionUUID->"b1955ff2-3c74-499c-ade0-af37eaa93792"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1445, 48, 588, 14, 57, "Input",ExpressionUUID->"3c50171c-a5d8-44ea-874f-124eaaeee38c"],
+Cell[2036, 64, 915, 14, 75, "Output",ExpressionUUID->"a4d0ae5e-8e7e-454b-a741-f0235fb2be28"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2988, 83, 782, 18, 57, "Input",ExpressionUUID->"a676aa3c-9414-4370-bb45-716992a4a010"],
+Cell[3773, 103, 680, 15, 45, "Output",ExpressionUUID->"fa247950-bc75-4b36-87dc-41b13af21c54"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4490, 123, 249, 6, 45, "Input",ExpressionUUID->"82ef4b9a-d4e6-4f2c-852e-a682e48e06cb"],
+Cell[4742, 131, 479, 12, 45, "Output",ExpressionUUID->"d8e7d8a0-2cbc-469b-9edf-cfd7433c7e14"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5258, 148, 590, 14, 57, "Input",ExpressionUUID->"5f2f42a6-e677-4f23-ae39-0e5cacc4e35b"],
+Cell[5851, 164, 217, 5, 43, "Output",ExpressionUUID->"450dde67-ed78-4aa2-920f-5e11c26f3368"]
+}, Open  ]]
+}
+]
+*)
+
